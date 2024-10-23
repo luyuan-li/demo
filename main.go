@@ -11,7 +11,7 @@ func main() {
 
 	var repo = "demo"
 
-	url := fmt.Sprintf("https://api.github.com/repos/%s/%s/commits?sha=main&path=address.json&since=2024-10-23T03:11:36Z", owner, repo)
+	url := fmt.Sprintf("https://api.github.com/repos/%s/%s/commits?sha=main&path=address.json&since=2024-10-23T03:14:05Z", owner, repo)
 	fmt.Println(url)
 
 	// 创建 HTTP 请求
